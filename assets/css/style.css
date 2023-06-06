@@ -1,6 +1,9 @@
+*{
+  box-sizing: border-box;
+}
 
-html {
-
+html{
+  scroll-behavior: smooth;
 }
 body {
   font-family: 'Poppins', sans-serif;
@@ -27,17 +30,20 @@ a:visited {
 
 .hero-section{
   height:500px;
-  background-image: url("../img/fotoYacs.jpeg");
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+),url("../img/fotoYacs.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
-  
-  
-  
 }
-
-/* Mis trabajos */
-#Mis-trabajos .image-top {
+.hero-section .container {
+  color: whitesmoke;
+}
+/* Portafolio */
+.portafolio .image-top {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
