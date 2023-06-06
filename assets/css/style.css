@@ -1,0 +1,64 @@
+
+html {
+
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(20, 7, 85);
+}
+.colorfondo {
+  background-color: rgb(20, 7, 85);
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: white;
+
+}
+.navbar-custom {
+  background-color: rgb(20, 7, 85);
+}
+.navbar-custom .navbar-brand .navbar-nav .nav-item {
+  color:white;
+}
+/* Hero Section */ 
+
+.hero-section{
+  height:500px;
+  background-image: url("../img/fotoYacs.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  
+  
+  
+}
+
+/* Mis trabajos */
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: rgb(20, 7, 85);
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
