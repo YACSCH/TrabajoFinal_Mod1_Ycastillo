@@ -7,7 +7,7 @@ html{
 }
 body {
   font-family: 'Poppins', sans-serif;
-  color: rgb(20, 7, 85);
+  color: rgb(46, 40, 71);
 }
 .colorfondo {
   background-color: rgb(20, 7, 85);
@@ -19,6 +19,10 @@ a{
 a:visited {
   color: white;
 
+}
+h2{
+  color: rgb(20, 7, 85);
+  font-size: 35;
 }
 .navbar-custom {
   background-color: rgb(20, 7, 85);
@@ -52,12 +56,53 @@ a:visited {
 
 
 /* Contacto */
-
-#Contacto form label {
-  font-weight: 700;
-  color: rgb(20, 7, 85);
+.contacto {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+  padding: 50px 55px;
+  box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  width: 640px;
+}
+form h2{
+  color: #f1f3f1;
+  font-size: 35;
+}
+.input-group {
+  display: flex;
+  flex-direction:column;
+  text-align:left;
 }
 
+label{
+  color: #f2f6f2;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+input, textarea{
+  padding: 17px 25px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  
+  border: 2px solid #f0faf1;
+  color:#283629;
+  outline: none;
+}
+input::placeholder, textarea::placeholder {
+  color: #b5cab6;
+}
+.btn {
+  color: #f1f3f1;
+  border: #f0faf1 solid;
+}
+.btn :hover{
+  color: #f0faf1;
+}
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
